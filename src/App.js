@@ -29,6 +29,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <h1>MONSTERS ACADEMY</h1>
         <Search placeHolder={"Search the Monster"} onChangeValue= {this.handleChange} />
         <CardList name={filteredUsers}>
         </CardList>
